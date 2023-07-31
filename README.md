@@ -11,7 +11,7 @@ For this project, you'll need the following components:
 ->Jumper wires
 Now, let's connect the ultrasonic sensor to the ESP32.
 
-Ultrasonic Sensor      ESP32
+Ultrasonic Sensor            ESP32
 
 VCC ------------------> 3.3V
 
