@@ -6,9 +6,13 @@
 const char* ssid = "YOUR_WIFI_SSID";
 const char* password = "YOUR_WIFI_PASSWORD";
 
-#define FIREBASE_HOST "YOUR_FIREBASE_PROJECT_ID.firebaseio.com" // under the build tab go to realtime database to get this credential
-#define FIREBASE_AUTH "YOUR_FIREBASE_REALTIME_DATABASE_SECRET" // project overview->project settings ->service accounts ->Database secrets -> scrol down
-#define FIREBASE_URL "YOUR_FIREBASE_URL" // "https://your-firebase-project-id.firebaseapp.com" can be found under project overview->project settings->scrol down
+#define FIREBASE_HOST "YOUR_FIREBASE_PROJECT_ID.firebaseio.com" 
+// under the build tab go to realtime database to get this credential
+#define FIREBASE_AUTH "YOUR_FIREBASE_REALTIME_DATABASE_SECRET" 
+// project overview->project settings ->service accounts ->Database secrets -> scrol down
+#define FIREBASE_URL "YOUR_FIREBASE_URL" 
+// "https://your-firebase-project-id.firebaseapp.com" can be found under project overview->project settings->scrol down
+//FIREBASE_URL is the specific location (path) within your Firebase Realtime Database where you want to store the data sent from ESP32
 
 const int triggerPin = 27;
 const int echoPin = 26;
