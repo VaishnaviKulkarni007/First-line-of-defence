@@ -12,9 +12,13 @@ For this project, you'll need the following components:
 Now, let's connect the ultrasonic sensor to the ESP32.
 
 Ultrasonic Sensor      ESP32
+
 VCC ------------------> 3.3V
+
 GND ------------------> GND
+
 Trigger --------------> GPIO 12 (D12)
+
 Echo -----------------> GPIO 14 (D14)
 
 
