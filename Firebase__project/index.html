@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Firebase Data Display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Display Firebase Data</h1>
+    <div id="data-container">
+        <!-- Data from Firebase will be displayed here -->
+    </div>
+
+    <!-- Your Firebase Config -->
+    <script>
+        const firebaseConfig = {
+            
+            apiKey: "AIzaSyBZ2w_cWDcBkLfvlyYrvaIXN1BBPrLSAIg",
+      authDomain: "first-line-of-defence-96900.firebaseapp.com"",
+      databaseURL: "https://first-line-of-defence-96900.firebaseio.com",
+      projectId: "first-line-of-defence-96900",
+      storageBucket: "first-line-of-defence-96900.appspot.com",
+      messagingSenderId: "273425642534",
+      appId: "1:273425642534:web:bb9ac132f4eeeb3525a2e7"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <!-- Include Firebase JavaScript SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js"></script>
+
+    <!-- Your JavaScript code -->
+    <script src="app.js"></script>
+</body>
+</html>
+
