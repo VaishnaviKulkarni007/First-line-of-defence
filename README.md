@@ -45,8 +45,10 @@ Now you have your Firebase credentials, including your Firebase Project ID and A
 
 Note: To enable web api go to authentication tab and finish authentiction step.
 
+5. Build a Firebase database
+Build->Realtime database 
 
-5. Firebase Integration and Sending data to Firebase:
+6. Firebase Integration and Sending data to Firebase:
 In this step, we'll integrate Firebase with the ESP32 to store data related to the human intervention event. We'll use the Firebase ESP32 library, which provides functions to interact with the Firebase Realtime Database.
 
 TO Install the Firebase ESP32 library (if you haven't already):
@@ -55,6 +57,7 @@ Go to "Sketch" > "Include Library" > "Manage Libraries..."
 Search for "Firebase ESP32" and install the library.
 Define your Firebase credentials (replace "YOUR_FIREBASE_PROJECT_ID", "YOUR_FIREBASE_DATABASE_SECRET", and "YOUR_FIREBASE_URL" with your actual Firebase credentials) in final.ino 
 
-7. 
+7.You can create a basic html page to view the status of restricted area
+
 
 
