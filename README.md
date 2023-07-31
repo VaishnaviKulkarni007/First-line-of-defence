@@ -23,9 +23,12 @@ Echo -----------------> GPIO 14 (D14)
 In this step, we'll connect the ESP32 to a WiFi network using the ESP32 WiFi library. You'll need to have the ESP32 board package installed in your Arduino IDE and select the correct board and COM port before proceeding.
 The code for the wifi setup can be found in repository
 
-4. Ultrasonic Sensor Readings:
-5. Firebase Integration:
-6. Sending Data to Firebase:
+3. Ultrasonic Sensor Readings:
+In this step, we'll set up the ultrasonic sensor to measure distance periodically. When the sensor detects a change in distance (human intervention), we'll trigger an event.
+once the ultrasonic sensor readings are verified move on to next step
+
+4. Firebase Integration:
+5. Sending Data to Firebase:
 7. 
 
 
